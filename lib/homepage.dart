@@ -11,7 +11,7 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: const Color(0xf0faf8f8),
       body: Center(
         child: Container(
           height: 200,
@@ -21,20 +21,20 @@ class _HomepageState extends State<Homepage> {
             size: 100,
           ),
           decoration: const BoxDecoration(
-            color: Colors.white60,
             borderRadius: BorderRadius.all(
               Radius.circular(40),
             ),
+            color: Color(0xf0faf8f8),
             boxShadow: [
               BoxShadow(
-                color: Colors.black12,
-                offset: Offset(4.0, 4.0),
+                color: Color(0xa1c6c2c2),
+                offset: Offset(5.0, 5.0),
                 blurRadius: 15,
                 spreadRadius: 1.0
               ),
               BoxShadow(
-                color: Colors.white60,
-                offset: Offset(-4, -4),
+                color: Color(0xdff8efef),
+                offset: Offset(-6, -5),
                 blurRadius: 15.0,
                 spreadRadius: 1.0,
               ),
