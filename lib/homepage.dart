@@ -28,13 +28,13 @@ class _HomepageState extends State<Homepage> {
             boxShadow: [
               BoxShadow(
                 color: Color(0xa1c6c2c2),
-                offset: Offset(5.0, 5.0),
+                offset: Offset(4.0, 4.0),
                 blurRadius: 15,
                 spreadRadius: 1.0
               ),
               BoxShadow(
                 color: Color(0xdff8efef),
-                offset: Offset(-6, -5),
+                offset: Offset(-5, -5),
                 blurRadius: 15.0,
                 spreadRadius: 1.0,
               ),
